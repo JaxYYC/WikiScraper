@@ -1,12 +1,12 @@
 ## WikiScraper ##
 
-library(shiny)
 library(rvest)
 library(wordcloud)
 library(tm)
 library(shinydashboardPlus)
 library(shinydashboard)
 library(syuzhet)
+library(shiny)
 
 ui <- tagList(
   navbarPage(
